@@ -106,15 +106,15 @@ class HiddenChromeWebDriver(webdriver.WebDriver):  # creates hidden Chrome webdr
         self._is_remote = False
 
 
-f = open("doclink.txt")
+f = open("doclink.txt", "r")
 doc_link = f.read().rstrip("\n").strip()
 f.close()
 
-f = open("credentials.txt")
+f = open("credentials.txt", "r")
 cred_list = f.readlines()
 f.close()
 
-f = open("cleartext.txt")
+f = open("cleartext.txt", "r")
 clear_code = f.read()
 f.close()
 
