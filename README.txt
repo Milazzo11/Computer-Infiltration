@@ -6,6 +6,7 @@ If the account already exists on the target computer, the new one will not be cr
 The Chrome browser is also required to connect to the internet to write to the Google Document (as a Chrome driver is used for internet connection).
 
 Depending on the version and settings of the target computer, attackers can possibly use this information to establish a remote connection.
+This has only been tested on Windows, and will most likely not work with other operating systems.
 
 NOTE: Do not edit the cleartext.txt file
 
